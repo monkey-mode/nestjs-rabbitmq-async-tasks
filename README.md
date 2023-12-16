@@ -1,5 +1,11 @@
 # nestjs-rabbitmq-async-tasks
 Message Queues for Async Tasks with RabbitMQ in Nest.js Apps
+
+Run Local RabbitMQ
+```bash
+$ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management
+```
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
